@@ -48,10 +48,7 @@
   }
 
   .window-overlay {
-    -webkit-box-pack: end;
-       -ms-flex-pack: end;
-    -webkit-justify-content: flex-end;
-            justify-content: flex-end;
+    justify-content: flex-end;
     background-color: rgba(255,255,255,0);
   }
 

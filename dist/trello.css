@@ -513,9 +513,9 @@ textarea {
     transition: right 1s;
   }
   .window-overlay {
-    -ms-flex-pack: end;
     -webkit-justify-content: flex-end;
-    justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
     background-color: rgba(255, 255, 255, 0);
   }
   .window {
