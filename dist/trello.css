@@ -32,6 +32,41 @@
   color: #222;
 }
 
+.board-header-btn-filter-indicator {
+  background: rgba(0, 0, 0, 0.12);
+  color: #222;
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
+.board-header-btn-filter-indicator .board-header-btn-icon {
+  color: #222;
+}
+
+.board-header-btn-filter-indicator .board-header-btn-text {
+  padding-right: 0;
+  text-decoration: none;
+}
+
+.board-header-btn-filter-indicator .board-header-btn-icon-close {
+  background: none;
+  color: #222;
+}
+
+.board-header-btn-filter-indicator:hover {
+  background: rgba(0, 0, 0, 0.3) !important;
+  color: #222;
+}
+
+.board-header-btn-filter-indicator:hover .board-header-btn-icon-close {
+  background: none;
+  color: #222;
+}
+
+.board-header-btn-filter-indicator:hover .board-header-btn-icon-close:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
 .board-menu {
   background-color: #F1F1F1;
 }

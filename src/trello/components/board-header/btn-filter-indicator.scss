@@ -1,0 +1,34 @@
+.board-header-btn-filter-indicator {
+  background: rgba(0,0,0,0.12);
+  color: #222;
+  padding-left: 26px;
+  padding-right: 26px;
+
+  .board-header-btn-icon {
+    color: #222;
+  }
+
+  .board-header-btn-text {
+    padding-right: 0;
+    text-decoration: none;
+  }
+
+  .board-header-btn-icon-close {
+    background: none;
+    color: #222;
+  }
+}
+
+.board-header-btn-filter-indicator:hover {
+  background: rgba(0,0,0,0.3) !important;
+  color: #222;
+
+  .board-header-btn-icon-close {
+    background: none;
+    color: #222;
+
+    &:hover {
+      background: rgba(#fff, 0.3);
+    }
+  }
+}
