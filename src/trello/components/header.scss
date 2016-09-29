@@ -11,11 +11,11 @@
   margin: -1px -5px -1px -45px;
   opacity: 1;
   padding: 0 4px;
-}
 
-.header-logo:hover {
-  background-color: #3093f7;
-  opacity: 1;
+  &:hover {
+    background-color: #3093f7;
+    opacity: 1;
+  }
 }
 
 .header-logo-loading {
@@ -27,16 +27,18 @@
 }
 
 .header-btn {
-  color: #202528;
   background: #fff;
+  color: #202528;
+
+  &.new-notifications {
+    background: none;
+    color: #EB5A46;
+  }
 }
 
-.header-btn.new-notifications {
-  background: none;
-  color: #EB5A46;
-}
-
-input[type=text].header-search-input,
-input[type=text].header-search-input:hover {
-  background-color: #fff;
+input[type=text].header-search-input {
+  &,
+  &:hover {
+    background-color: #fff;
+  }
 }

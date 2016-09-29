@@ -2,26 +2,30 @@
   padding: 0;
 }
 
-.badge.is-complete,
-.badge.is-due-now,
-.badge.is-due-past,
-.badge.is-due-soon,
-.badge.is-unread-notification {
-  background-color: transparent;
-  border-radius: 0;
-}
+.badge {
+  &.is-complete,
+  &.is-due-now,
+  &.is-due-past,
+  &.is-due-soon,
+  &.is-unread-notification {
+    background-color: transparent;
+    border-radius: 0;
+  }
 
-.badge.is-complete,
-.badge.is-complete .badge-icon,
-.badge.is-due-now,
-.badge.is-due-now .badge-icon,
-.badge.is-due-past,
-.badge.is-due-past .badge-icon,
-.badge.is-due-soon .badge-icon {
-  color: #61BD4F;
-}
+  &.is-complete,
+  &.is-due-now,
+  &.is-due-past,
+  &.is-due-soon {
+    &,
+    .badge-icon {
+      color: #61BD4F;
+    }
+  }
 
-.badge.is-unread-notification,
-.badge.is-unread-notification .badge-icon {
-  color: #CF513D;
+  &.is-unread-notification {
+    &,
+    .badge-icon {
+      color: #CF513D;
+    }
+  }
 }

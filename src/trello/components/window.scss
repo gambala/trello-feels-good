@@ -1,3 +1,5 @@
+@import "../../trello/mixins/scrollbar";
+
 .window-overlay {
   display: block;
   opacity: 0;
@@ -11,52 +13,8 @@
 }
 
 .window {
+  @include scrollbar;
   background-color: #E9EDF2;
-}
-
-.window::-webkit-scrollbar-button {
-  display: block;
-  height: 6px;
-  width: 6px
-}
-
-.window::-webkit-scrollbar {
-  height: 9px;
-  width: 9px
-}
-
-.window::-webkit-scrollbar-button:end:increment,
-.window::-webkit-scrollbar-button:start:decrement {
-  background: 0 0;
-  display: none
-}
-
-.window::-webkit-scrollbar-track-piece {
-  background: #D6DADC
-}
-
-.window::-webkit-scrollbar-track-piece:vertical:start {
-  border-radius: 5px 5px 0 0
-}
-
-.window::-webkit-scrollbar-track-piece:vertical:end {
-  border-radius: 0 0 5px 5px
-}
-
-.window::-webkit-scrollbar-track-piece:horizontal:start {
-  border-radius: 5px 0 0 5px
-}
-
-.window::-webkit-scrollbar-track-piece:horizontal:end {
-  border-radius: 0 5px 5px 0
-}
-
-.window::-webkit-scrollbar-thumb:horizontal,
-.window::-webkit-scrollbar-thumb:vertical {
-  background: #C4C9CC;
-  border-radius: 5px;
-  display: block;
-  height: 50px;
 }
 
 .window-cover {
@@ -64,22 +22,24 @@
   box-shadow: none;
 }
 
-.window-sidebar h3 {
-  font-weight: 500;
-}
+.window-sidebar {
+  h3 {
+    font-weight: 500;
+  }
 
-.window-sidebar .button-link {
-  background: none;
-  border: none;
-  font-weight: 400;
-  height: auto;
-  margin-top: 12px;
-  padding: 0;
-}
+  .button-link {
+    background: none;
+    border: none;
+    font-weight: 400;
+    height: auto;
+    margin-top: 12px;
+    padding: 0;
 
-.window-sidebar .button-link:hover,
-.window-sidebar .button-link:hover .icon-sm {
-  color: #222;
+    &:hover,
+    &:hover .icon-sm {
+      color: #222;
+    }
+  }
 }
 
 @media only screen and (min-width: 1601px) {

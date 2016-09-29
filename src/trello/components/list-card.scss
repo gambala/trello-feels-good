@@ -27,10 +27,10 @@
 .list-card.hide {
   min-height: 0;
   border: none;
-}
 
-.list-card.hide .list-card-cover,
-.list-card.hide .list-card-details,
-.list-card.hide .list-card-operation {
-  display: none;
+  .list-card-cover,
+  .list-card-details,
+  .list-card-operation {
+    display: none;
+  }
 }

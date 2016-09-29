@@ -1,0 +1,37 @@
+@mixin scrollbar {
+  &::-webkit-scrollbar {
+    height: 9px;
+    width: 9px;
+  }
+
+  &::-webkit-scrollbar-button {
+    display: block;
+    height: 6px;
+    width: 6px;
+
+    &:end:increment,
+    &:start:decrement {
+      background: 0 0;
+      display: none;
+    }
+  }
+
+  &::-webkit-scrollbar-thumb {
+    &:horizontal,
+    &:vertical {
+      background: #C4C9CC;
+      border-radius: 5px;
+      display: block;
+      height: 50px;
+    }
+  }
+
+  &::-webkit-scrollbar-track-piece {
+    background: #D6DADC;
+
+    &:vertical:start   { border-radius: 5px 5px 0 0; }
+    &:vertical:end     { border-radius: 0 0 5px 5px; }
+    &:horizontal:start { border-radius: 5px 0 0 5px; }
+    &:horizontal:end   { border-radius: 0 5px 5px 0; }
+  }
+}
