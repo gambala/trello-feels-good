@@ -1,0 +1,42 @@
+#header,
+.body-board-view #header {
+  background: #E9EDF2;
+  border-bottom: 1px solid #C6CACE;
+}
+
+.header-logo {
+  background-color: #3F9BF8;
+  border-radius: 5px;
+  border: 1px solid #202528;
+  margin: -1px -5px -1px -45px;
+  opacity: 1;
+  padding: 0 4px;
+}
+
+.header-logo:hover {
+  background-color: #3093f7;
+  opacity: 1;
+}
+
+.header-logo-loading {
+  left: 6px;
+}
+
+.header-logo-default {
+  margin-right: 4px;
+}
+
+.header-btn {
+  color: #202528;
+  background: #fff;
+}
+
+.header-btn.new-notifications {
+  background: none;
+  color: #EB5A46;
+}
+
+input[type=text].header-search-input,
+input[type=text].header-search-input:hover {
+  background-color: #fff;
+}

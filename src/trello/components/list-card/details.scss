@@ -1,0 +1,41 @@
+.list-card-details {
+  -webkit-box-orient: vertical;
+     -moz-box-orient: vertical;
+          box-orient: vertical;
+  display: -webkit-box;
+  display:    -moz-box;
+  display:         box;
+  overflow: visible;
+}
+
+.list-card-title {
+  -webkit-box-ordinal-group: 1;
+     -moz-box-ordinal-group: 1;
+          box-ordinal-group: 1;
+}
+
+.badges {
+  -webkit-box-ordinal-group: 2;
+     -moz-box-ordinal-group: 2;
+          box-ordinal-group: 2;
+  margin-bottom: 2px;
+  padding: 0;
+}
+
+.list-card-labels {
+  -webkit-box-ordinal-group: 3;
+     -moz-box-ordinal-group: 3;
+          box-ordinal-group: 3;
+}
+
+.list-card-members {
+  -webkit-box-ordinal-group: 4;
+     -moz-box-ordinal-group: 4;
+          box-ordinal-group: 4;
+  margin-bottom: -6px;
+}
+
+.list-card-members .member {
+  float: left;
+  margin: 0 4px 6px 0;
+}

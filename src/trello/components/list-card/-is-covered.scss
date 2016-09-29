@@ -1,0 +1,78 @@
+.list-card.is-covered {
+  -webkit-box-orient: vertical;
+     -moz-box-orient: vertical;
+          box-orient: vertical;
+  display: -webkit-box;
+  display:    -moz-box;
+  display:         box;
+}
+
+.list-card.is-covered .list-card-details {
+  -webkit-box-ordinal-group: 1;
+     -moz-box-ordinal-group: 1;
+          box-ordinal-group: 1;
+  padding-bottom: 0;
+}
+
+.list-card.is-covered .list-card-members {
+  padding-bottom: 6px;
+}
+
+.list-card.is-covered .list-card-cover {
+  -webkit-box-ordinal-group: 2;
+     -moz-box-ordinal-group: 2;
+          box-ordinal-group: 2;
+}
+
+.list-card.is-covered .list-card-cover,
+.list-card.is-covered .list-card-cover::after {
+  border-radius: 3px;
+  box-sizing: border-box;
+  height: 30px !important;
+  margin: 0 15px 12px;
+  width: 30px;
+}
+
+.list-card.is-covered .list-card-cover {
+  background-size: contain !important;
+  border: 1px solid #E7E7E7;
+}
+
+
+.list-card.is-covered .list-card-cover::before,
+.list-card.is-covered .list-card-cover::after {
+  background: inherit;
+  content: '';
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  transition: opacity 0.075s;
+}
+
+.list-card.is-covered .list-card-cover::before {
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.list-card.is-covered .list-card-cover::after {
+  background: rgba(0,0,0,0.5);
+  border: 1px dashed #E7E7E7;
+  left: 0;
+  bottom: 0;
+}
+
+.list-card.is-covered .list-card-cover:hover::before {
+  opacity: 1;
+  z-index: 41;
+}
+
+.list-card.is-covered .list-card-cover:hover::after {
+  opacity: 1;
+  z-index: 42;
+}
+
+.quick-card-editor .list-card-cover {
+  display: none;
+}

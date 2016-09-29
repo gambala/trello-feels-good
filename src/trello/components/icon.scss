@@ -1,0 +1,17 @@
+.icon-lg.light,
+.icon-lg.light-hover:hover,
+.icon-sm.light,
+.icon-sm.light-hover:hover,
+.light-hover:hover .icon-lg,
+.light-hover:hover .icon-sm {
+  color: inherit;
+}
+
+.icon-lg.mod-inline,
+.icon-sm {
+  width: auto;
+}
+
+.icon-sm + span {
+  margin-left: 2px;
+}

@@ -1,0 +1,36 @@
+.list-card {
+  border-color: #E7E7E7;
+  margin-bottom: 0;
+}
+
+.list-card-operation {
+  right: 8px;
+  top: 8px;
+}
+
+.list-card-details {
+  padding: 12px 15px;
+}
+
+.list-card-title {
+  margin: 0 0 6px;
+}
+
+.list-card:last-child {
+  border-bottom: none;
+}
+
+.list-card.active-card {
+  background-color: #f7f7f7;
+}
+
+.list-card.hide {
+  min-height: 0;
+  border: none;
+}
+
+.list-card.hide .list-card-cover,
+.list-card.hide .list-card-details,
+.list-card.hide .list-card-operation {
+  display: none;
+}

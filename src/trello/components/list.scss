@@ -1,0 +1,39 @@
+.list {
+  background: #fff;
+  border: 1px solid #BBBBBB;
+  border-radius: 3px;
+  box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.1);
+}
+
+.list-header {
+  padding: 12px 15px;
+}
+
+.list-header h2 {
+  font-size: 14px;
+}
+
+.list-header-extras {
+  right: 8px;
+  top: 8px;
+}
+
+.list-cards {
+  border-bottom: 1px solid #B8D6FF;
+  border-top: 1px solid #B8D6FF;
+  margin: 0;
+  padding: 0;
+}
+
+.list-cards:empty {
+  border: none;
+}
+
+.open-card-composer {
+  padding: 12px 15px;
+}
+
+.open-card-composer:hover {
+  background: none;
+  text-decoration: none;
+}

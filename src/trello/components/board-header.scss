@@ -1,0 +1,10 @@
+.board-header {
+  padding: 8px 10px;
+}
+
+.board-header-btn,
+.board-header-btn:hover,
+.board-header-btn-icon,
+.board-header-btn.board-header-btn-enabled .board-header-btn-icon.icon-star {
+  color: #222;
+}

@@ -1,0 +1,122 @@
+.window-overlay {
+  display: block;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s;
+}
+
+.window-up .window-overlay {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.window {
+  background-color: #E9EDF2;
+}
+
+.window::-webkit-scrollbar-button {
+  display: block;
+  height: 6px;
+  width: 6px
+}
+
+.window::-webkit-scrollbar {
+  height: 9px;
+  width: 9px
+}
+
+.window::-webkit-scrollbar-button:end:increment,
+.window::-webkit-scrollbar-button:start:decrement {
+  background: 0 0;
+  display: none
+}
+
+.window::-webkit-scrollbar-track-piece {
+  background: #D6DADC
+}
+
+.window::-webkit-scrollbar-track-piece:vertical:start {
+  border-radius: 5px 5px 0 0
+}
+
+.window::-webkit-scrollbar-track-piece:vertical:end {
+  border-radius: 0 0 5px 5px
+}
+
+.window::-webkit-scrollbar-track-piece:horizontal:start {
+  border-radius: 5px 0 0 5px
+}
+
+.window::-webkit-scrollbar-track-piece:horizontal:end {
+  border-radius: 0 5px 5px 0
+}
+
+.window::-webkit-scrollbar-thumb:horizontal,
+.window::-webkit-scrollbar-thumb:vertical {
+  background: #C4C9CC;
+  border-radius: 5px;
+  display: block;
+  height: 50px;
+}
+
+.window-cover {
+  border-bottom: 1px solid #C6CACE;
+  box-shadow: none;
+}
+
+.window-sidebar h3 {
+  font-weight: 500;
+}
+
+.window-sidebar .button-link {
+  background: none;
+  border: none;
+  font-weight: 400;
+  height: auto;
+  margin-top: 12px;
+  padding: 0;
+}
+
+.window-sidebar .button-link:hover,
+.window-sidebar .button-link:hover .icon-sm {
+  color: #222;
+}
+
+@media only screen and (min-width: 1601px) {
+  .board-wrapper {
+    transition: right 1s;
+  }
+
+  .window-overlay {
+    -webkit-box-pack: end;
+       -ms-flex-pack: end;
+    -webkit-justify-content: flex-end;
+            justify-content: flex-end;
+    background-color: rgba(255,255,255,0);
+  }
+
+  .window {
+    border-radius: 0;
+    border-left: 1px solid #C6CACE;
+    height: calc(100vh - 41px);
+    margin: 41px 0 0;
+    overflow-y: auto;
+    width: 750px;
+  }
+
+  .card-detail-window {
+    min-height: 100vh;
+  }
+
+  .window-up .board-wrapper {
+    right: 750px;
+  }
+
+  .window-up .window-overlay {
+    pointer-events: none;
+  }
+
+  .window-up .window {
+    pointer-events: all;
+  }
+}
