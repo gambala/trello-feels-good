@@ -1,28 +1,4 @@
-.list-card.is-covered {
-  -webkit-box-orient: vertical;
-     -moz-box-orient: vertical;
-          box-orient: vertical;
-  display: -webkit-box;
-  display:    -moz-box;
-  display:         box;
-}
-
-.list-card.is-covered .list-card-details {
-  -webkit-box-ordinal-group: 1;
-     -moz-box-ordinal-group: 1;
-          box-ordinal-group: 1;
-  padding-bottom: 0;
-}
-
-.list-card.is-covered .list-card-members {
-  padding-bottom: 6px;
-}
-
-.list-card.is-covered .list-card-cover {
-  -webkit-box-ordinal-group: 2;
-     -moz-box-ordinal-group: 2;
-          box-ordinal-group: 2;
-}
+// Make card cover looks like small thumb with preview on hover
 
 .list-card.is-covered .list-card-cover,
 .list-card.is-covered .list-card-cover::after {
@@ -37,7 +13,6 @@
   background-size: contain !important;
   border: 1px solid #E7E7E7;
 }
-
 
 .list-card.is-covered .list-card-cover::before,
 .list-card.is-covered .list-card-cover::after {

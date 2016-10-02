@@ -1,0 +1,7 @@
+// Apply css scrollbar for card window
+
+@import "../../../trello/mixins/scrollbar";
+
+.window {
+  @include scrollbar;
+}

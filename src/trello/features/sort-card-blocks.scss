@@ -1,3 +1,5 @@
+// Sort and align card detail blocks
+
 .list-card-details {
   -webkit-box-orient: vertical;
      -moz-box-orient: vertical;
@@ -12,6 +14,7 @@
   -webkit-box-ordinal-group: 1;
      -moz-box-ordinal-group: 1;
           box-ordinal-group: 1;
+  margin: 0 0 6px;
 }
 
 .badges {
@@ -38,4 +41,42 @@
 .list-card-members .member {
   float: left;
   margin: 0 4px 6px 0;
+}
+
+// Move card cover down, under details
+
+.list-card.is-covered {
+  -webkit-box-orient: vertical;
+     -moz-box-orient: vertical;
+          box-orient: vertical;
+  display: -webkit-box;
+  display:    -moz-box;
+  display:         box;
+}
+
+.list-card.is-covered .list-card-details {
+  -webkit-box-ordinal-group: 1;
+     -moz-box-ordinal-group: 1;
+          box-ordinal-group: 1;
+  padding-bottom: 0;
+}
+
+.list-card.is-covered .list-card-members {
+  padding-bottom: 6px;
+}
+
+.list-card.is-covered .list-card-cover {
+  -webkit-box-ordinal-group: 2;
+     -moz-box-ordinal-group: 2;
+          box-ordinal-group: 2;
+}
+
+// Hide hided card completely
+
+.list-card.hide {
+  .list-card-cover,
+  .list-card-details,
+  .list-card-operation {
+    display: none;
+  }
 }

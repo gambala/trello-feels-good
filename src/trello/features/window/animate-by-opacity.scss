@@ -1,0 +1,13 @@
+// Animate window opening/closing with opacity transition
+
+.window-overlay {
+  display: block;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s;
+}
+
+.window-up .window-overlay {
+  opacity: 1;
+  pointer-events: all;
+}

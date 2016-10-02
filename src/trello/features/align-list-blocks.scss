@@ -1,0 +1,37 @@
+// Calibrate paddings in cards and card list blocks
+
+.list-header,
+.list-card-details,
+.open-card-composer {
+  padding: 12px 15px;
+}
+
+.list-cards {
+  margin: 0;
+  padding: 0;
+}
+
+.list-card {
+  margin-bottom: 0;
+}
+
+// Align card and list action buttons
+
+.list-header-extras,
+.list-card-operation {
+  right: 8px;
+  top: 8px;
+}
+
+// Size down header title
+
+.list-header h2 {
+  font-size: 14px;
+}
+
+// Fix hided card height
+
+.list-card.hide {
+  min-height: 0;
+  border: none;
+}

@@ -1,0 +1,31 @@
+.list {
+  background: #fff;
+  border: 1px solid #BBBBBB;
+  border-radius: 3px;
+  box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.1);
+}
+
+.list-cards {
+  border-bottom: 1px solid #B8D6FF;
+  border-top: 1px solid #B8D6FF;
+}
+
+.list-cards:empty {
+  border: none;
+}
+
+.list-card {
+  border-color: #E7E7E7;
+}
+
+.list-card:last-child {
+  border-bottom: none;
+}
+
+.list-card.active-card {
+  background-color: #f7f7f7;
+}
+
+.list-card.hide {
+  border: none;
+}

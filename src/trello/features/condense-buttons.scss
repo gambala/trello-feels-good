@@ -1,0 +1,17 @@
+// Make buttons more condensed
+
+.button,
+button,
+input[type=button],
+input[type=submit] {
+  padding: 3px 15px;
+
+  &.primary {
+    font-size: 12px;
+  }
+
+  &.wide {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

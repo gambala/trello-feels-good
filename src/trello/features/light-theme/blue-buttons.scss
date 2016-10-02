@@ -1,17 +1,15 @@
+// Make buttons blue instead of green
+
 .button,
 button,
 input[type=button],
 input[type=submit] {
-  padding: 3px 15px;
-
   &.primary {
     background: #4181F2;
-    border: 1px solid;
-    border-color: #2762CA;
+    border: 1px solid #2762CA;
     border-radius: 3px;
     box-shadow: 0 1px 1px 0 rgba(0,0,0,0.1);
     color: #fff;
-    font-size: 12px;
 
     &:hover,
     &:focus {
@@ -21,10 +19,5 @@ input[type=submit] {
     &:active {
       background: #4181F2;
     }
-  }
-
-  &.wide {
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }

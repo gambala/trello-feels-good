@@ -1,0 +1,23 @@
+// Make header Trello logo looks like button
+
+.header-logo {
+  background-color: #3F9BF8;
+  border-radius: 5px;
+  border: 1px solid #202528;
+  margin: -1px -5px -1px -45px;
+  opacity: 1;
+  padding: 0 4px;
+
+  &:hover {
+    background-color: #3093f7;
+    opacity: 1;
+  }
+}
+
+.header-logo-loading {
+  left: 6px;
+}
+
+.header-logo-default {
+  margin-right: 4px;
+}

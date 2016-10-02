@@ -1,0 +1,20 @@
+#header,
+.body-board-view #header {
+  background: #E9EDF2;
+  border-bottom: 1px solid #C6CACE;
+}
+
+.header-btn {
+  background: #fff;
+  color: #202528;
+}
+
+.header-btn.new-notifications {
+  background: none;
+  color: #EB5A46;
+}
+
+input[type=text].header-search-input,
+input[type=text].header-search-input:hover {
+  background-color: #fff;
+}

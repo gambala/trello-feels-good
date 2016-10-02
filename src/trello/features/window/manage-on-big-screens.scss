@@ -1,0 +1,61 @@
+// Make active and manageable both window and cards on big screens
+
+@media only screen and (min-width: 1601px) {
+  // Smoothly shrink board body on opened window
+
+  .board-wrapper {
+    transition: right 1.5s;
+    will-change: right;
+  }
+
+  .window {
+    width: 750px;
+  }
+
+  .window-up .board-wrapper {
+    right: 750px;
+  }
+
+  // Align opened window on right
+
+  .window-overlay {
+    justify-content: flex-end;
+  }
+
+  .window {
+    border-left: 1px solid #C6CACE;
+    border-radius: 0;
+    height: calc(100vh - 41px);
+    margin: 41px 0 0;
+  }
+
+  // Add always visible independent scrollbar for window
+
+  .window {
+    overflow-y: scroll;
+  }
+
+  // Make window-overlay transparent by both visual and behavior
+
+  .window-overlay {
+    background: none;
+  }
+
+  .window-up .window-overlay {
+    pointer-events: none;
+  }
+
+  .window-up .window {
+    pointer-events: all;
+  }
+
+  // Hide header search input because of disabled state on opened window
+
+  input[type=text].header-search-input:disabled {
+    display: none;
+
+    + .header-search-icon {
+      display: none;
+    }
+  }
+}
