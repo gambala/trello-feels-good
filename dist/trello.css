@@ -21,6 +21,14 @@
   color: #CF513D;
 }
 
+.badge-icon.icon-sm {
+  width: 16px;
+}
+
+.badge-icon.icon-sm + span {
+  margin-left: 1px;
+}
+
 .board-header {
   padding: 8px 10px;
 }
@@ -174,15 +182,6 @@ input[type=text].header-search-input, input[type=text].header-search-input:hover
 .light-hover:hover .icon-lg,
 .light-hover:hover .icon-sm {
   color: inherit;
-}
-
-.icon-lg.mod-inline,
-.icon-sm {
-  width: 16px;
-}
-
-.icon-sm + span {
-  margin-left: 2px;
 }
 
 .list-card {
