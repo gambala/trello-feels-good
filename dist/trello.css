@@ -178,7 +178,7 @@ input[type=text].header-search-input, input[type=text].header-search-input:hover
 
 .icon-lg.mod-inline,
 .icon-sm {
-  width: auto;
+  width: 16px;
 }
 
 .icon-sm + span {
