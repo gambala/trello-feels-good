@@ -44,7 +44,8 @@
 
 @media only screen and (min-width: 1601px) {
   .board-wrapper {
-    transition: right 1s;
+    transition: right 1.5s;
+    will-change: right;
   }
 
   .window-overlay {
