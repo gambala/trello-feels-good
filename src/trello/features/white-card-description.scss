@@ -1,0 +1,28 @@
+.card-detail-item {
+  .description-content {
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.23);
+    padding: 9px 11px;
+  }
+
+  .description-content > .current > *:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.card-detail-item.editing {
+  .description-content {
+    background: none;
+    box-shadow: none;
+    padding: 0;
+  }
+
+  .field {
+    background-color: #fff;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.23);
+    padding: 9px 11px;
+  }
+}
