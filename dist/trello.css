@@ -175,6 +175,14 @@ input[type=text].header-search-input, input[type=text].header-search-input:hover
   background-color: #fff;
 }
 
+input[type=text].header-search-input:disabled {
+  display: none;
+}
+
+input[type=text].header-search-input:disabled + .header-search-icon {
+  display: none;
+}
+
 .icon-lg.light,
 .icon-lg.light-hover:hover,
 .icon-sm.light,

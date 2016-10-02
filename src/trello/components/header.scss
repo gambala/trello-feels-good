@@ -42,3 +42,11 @@ input[type=text].header-search-input {
     background-color: #fff;
   }
 }
+
+input[type=text].header-search-input:disabled {
+  display: none;
+
+  + .header-search-icon {
+    display: none;
+  }
+}
