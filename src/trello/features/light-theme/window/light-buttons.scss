@@ -1,0 +1,5 @@
+// Don't apply background on hover for "Edit description" and analogue buttons
+
+.quiet-button:hover {
+  background: none;
+}

@@ -277,6 +277,10 @@ input[type=text].header-search-input:hover {
   box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.35), 0 3px 10px 1px rgba(0, 0, 0, 0.35);
 }
 
+.quiet-button:hover {
+  background: none;
+}
+
 .card-detail-item .description-content {
   background: #fff;
   border-radius: 3px;
@@ -567,14 +571,14 @@ input[type=text].header-search-input:hover {
 
 @media only screen and (min-width: 1601px) {
   .board-wrapper {
-    transition: right 1.5s;
-    will-change: right;
+    transition: margin-right 1.5s ease-in-out;
+    will-change: margin-right;
   }
   .window {
     width: 750px;
   }
   .window-up .board-wrapper {
-    right: 750px;
+    margin-right: 750px;
   }
   .window-overlay {
     -webkit-justify-content: flex-end;
