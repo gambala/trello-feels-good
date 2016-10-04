@@ -454,7 +454,8 @@ input[type=text].header-search-input:hover {
   background: #fff;
   border: none;
   border-bottom: 1px solid #E7E7E7;
-  border-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
   box-shadow: none;
   padding: 12px 15px;
 }
