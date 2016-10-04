@@ -4,8 +4,8 @@
   // Smoothly shrink board body on opened window
 
   .board-wrapper {
-    transition: right 1.5s;
-    will-change: right;
+    transition: padding-right 1.5s ease-in-out;
+    will-change: padding-right;
   }
 
   .window {
@@ -13,7 +13,7 @@
   }
 
   .window-up .board-wrapper {
-    right: 750px;
+    padding-right: 750px;
   }
 
   // Align opened window on right
