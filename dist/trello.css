@@ -136,8 +136,35 @@ input[type=submit].primary:active {
   box-shadow: none;
 }
 
-body {
-  background: #E1E1E1 !important;
+#content {
+  background: #E1E1E1;
+}
+
+.body-board-view::after,
+.body-board-view::before {
+  background: inherit;
+  bottom: 0;
+  content: '';
+  height: 50vh;
+  left: 0;
+  position: fixed;
+  width: 80vw;
+  z-index: 1;
+}
+
+.body-board-view::before {
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%);
+          clip-path: polygon(0 0, 0 100%, 100% 100%);
+  opacity: 0.5;
+}
+
+.body-board-view::after {
+  -webkit-clip-path: polygon(0 30%, 0 100%, 70% 100%);
+          clip-path: polygon(0 30%, 0 100%, 70% 100%);
+}
+
+.board-wrapper {
+  z-index: 2;
 }
 
 .icon-lg.light,
