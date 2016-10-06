@@ -143,6 +143,7 @@ input[type=submit].primary:active {
 .body-board-view::after,
 .body-board-view::before {
   background: inherit;
+  background-position: 50% 50%;
   bottom: 0;
   content: '';
   height: 50vh;
