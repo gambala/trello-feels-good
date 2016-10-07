@@ -292,7 +292,7 @@ input[type=text].header-search-input:hover {
 .header-logo {
   background-color: #3F9BF8;
   border-radius: 5px;
-  border: 1px solid #202528;
+  border: 1px solid #888;
   margin: -1px -5px -1px -45px;
   opacity: 1;
   padding: 0 4px;
