@@ -141,8 +141,23 @@ input[type=submit].primary:active {
   box-shadow: none;
 }
 
-#content {
+#content,
+.tabbed-pane-main-col,
+.tabbed-pane-nav-item-button.active,
+.tabbed-pane-nav-item-button.active:hover {
   background: #E1E1E1;
+}
+
+.tabbed-pane-nav-item-button {
+  background: #fff;
+}
+
+.board-tile.mod-add {
+  background: #fff;
+}
+
+.board-tile.mod-add:hover {
+  background: #eff2f6;
 }
 
 .body-board-view::after,
