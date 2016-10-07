@@ -3,6 +3,11 @@
   padding-left: 10px;
 }
 
+.body-tabbed-page #content {
+  height: calc(100vh - 41px);
+  overflow-y: auto;
+}
+
 .list-header,
 .list-card-details,
 .open-card-composer {

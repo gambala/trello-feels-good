@@ -1,0 +1,6 @@
+// Move scroll to content instead of body for header proper alignment
+
+.body-tabbed-page #content {
+  height: calc(100vh - 41px);
+  overflow-y: auto;
+}
