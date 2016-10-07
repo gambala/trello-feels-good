@@ -1,5 +1,7 @@
 # Nice and clean Trello CSS theme
 
+![Trello theme](https://github.com/gambala/trello/raw/master/cover.png)
+
 ## Installing
 
 1. Install Stylish browser extension ([Chrome](https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe)).
