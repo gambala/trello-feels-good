@@ -349,6 +349,7 @@ input[type=text].header-search-input:hover {
 
 .list-card {
   border-color: #E7E7E7;
+  border-radius: 0;
 }
 
 .list-card:last-child {
@@ -361,6 +362,39 @@ input[type=text].header-search-input:hover {
 
 .list-card.hide {
   border: none;
+}
+
+.aging-pirate.aging-level-2,
+.aging-pirate.aging-level-2 .list-card-details,
+.aging-pirate.aging-level-3,
+.aging-pirate.aging-level-3 .list-card-details {
+  background-color: inherit;
+  background-image: none;
+  box-shadow: none;
+}
+
+.aging-pirate.aging-level-2.active-card,
+.aging-pirate.aging-level-2.active-card .list-card-operation,
+.aging-pirate.aging-level-3.active-card,
+.aging-pirate.aging-level-3.active-card .list-card-operation {
+  background-color: #f7f7f7;
+}
+
+.aging-pirate.aging-level-2 {
+  opacity: 0.7;
+}
+
+.aging-pirate.aging-level-3 {
+  opacity: 0.5;
+}
+
+.aging-pirate.aging-level-2.active-card,
+.aging-pirate.aging-level-3.active-card {
+  opacity: 1;
+}
+
+.list-card.is-covered .list-card-cover:hover {
+  opacity: 1;
 }
 
 .pop-over {
