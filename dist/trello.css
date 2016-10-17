@@ -437,6 +437,19 @@ input[type=text].header-search-input:hover {
   padding: 9px 11px;
 }
 
+.description-content-fade-button {
+  height: 452px;
+  padding-top: 419px;
+}
+
+.description-content-fade-button {
+  background: linear-gradient(to bottom, rgba(237, 239, 240, 0), rgba(237, 239, 240, 0) 385px, #EDEFF0 415px);
+}
+
+.description-content-fade-button:hover {
+  background: linear-gradient(to bottom, rgba(237, 239, 240, 0), rgba(237, 239, 240, 0) 385px, #EDEFF0 430px);
+}
+
 .list-card.is-covered .list-card-cover,
 .list-card.is-covered .list-card-cover::after {
   border-radius: 3px;
