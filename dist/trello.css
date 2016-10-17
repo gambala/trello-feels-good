@@ -668,10 +668,6 @@ input[type=text].header-search-input:hover {
 }
 
 @media only screen and (min-width: 1601px) {
-  .board-wrapper {
-    transition: margin-right 1.5s ease-in-out;
-    will-change: margin-right;
-  }
   .window {
     width: 750px;
   }

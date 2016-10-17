@@ -3,11 +3,6 @@
 @media only screen and (min-width: 1601px) {
   // Smoothly shrink board body on opened window
 
-  .board-wrapper {
-    transition: margin-right 1.5s ease-in-out;
-    will-change: margin-right;
-  }
-
   .window {
     width: 750px;
   }
