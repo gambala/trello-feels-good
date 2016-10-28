@@ -718,7 +718,12 @@ input[type=text].header-search-input:hover {
   .window {
     width: 750px;
   }
+  .board-wrapper {
+    will-change: margin-right;
+    transition: margin-right 1s;
+  }
   .window-up .board-wrapper {
+    transition-duration: 0s;
     margin-right: 750px;
   }
   .window-overlay {
