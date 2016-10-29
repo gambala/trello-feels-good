@@ -331,6 +331,16 @@ input[type=text].header-search-input:hover {
   margin-right: 4px;
 }
 
+.known-service-link {
+  background: none;
+  color: #8c8c8c;
+}
+
+.known-service-link:hover {
+  background: none;
+  color: #4d4d4d;
+}
+
 .list {
   background: #fff;
   border: 1px solid #BBBBBB;
