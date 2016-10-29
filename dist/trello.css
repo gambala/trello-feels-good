@@ -726,7 +726,7 @@ input[type=text].header-search-input:hover {
 
 @media only screen and (min-width: 1601px) {
   .window {
-    width: 750px;
+    width: 750px !important;
   }
   .board-wrapper {
     will-change: margin-right;
