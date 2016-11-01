@@ -1,5 +1,6 @@
 @import "trello/features";
 @import "trello/features/align-board-logo";
+@import "trello/features/align-card-elements";
 @import "trello/features/align-header";
 @import "trello/features/align-list-blocks";
 @import "trello/features/badges/align-icons";
@@ -20,7 +21,6 @@
 @import "trello/features/light-theme/window/light-buttons";
 @import "trello/features/light-theme/window/white-description";
 @import "trello/features/make-card-cover-thumb";
-@import "trello/features/sort-card-blocks";
 @import "trello/features/stylize-adding-list";
 @import "trello/features/window/animate-by-opacity";
 @import "trello/features/window/apply-scrollbar";
