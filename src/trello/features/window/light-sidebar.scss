@@ -1,3 +1,5 @@
+@import "trello/variables";
+
 // Make sidebar buttons looks like links
 
 .window-sidebar h3 {
@@ -9,7 +11,7 @@
   border: none;
   font-weight: 400;
   height: auto;
-  margin-top: 12px;
+  margin-top: $vertical-margin;
   padding: 0;
 }
 

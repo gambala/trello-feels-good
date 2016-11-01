@@ -1,3 +1,5 @@
+@import "trello/variables";
+
 // Stylize adding list button and form
 
 .list-wrapper.mod-add {
@@ -10,7 +12,7 @@
 
 .list-wrapper.mod-add .placeholder {
   color: #222;
-  padding: 12px 15px;
+  padding: $vertical-margin $horizontal-margin;
 }
 
 .list-wrapper.mod-add .list-name-input {
@@ -20,11 +22,11 @@
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   box-shadow: none;
-  padding: 12px 15px;
+  padding: $vertical-margin $horizontal-margin;
 }
 
 .list-wrapper.mod-add .list-add-controls {
-  margin: 12px 15px;
+  margin: $vertical-margin $horizontal-margin;
 }
 
 .list-wrapper.mod-add.is-idle {
@@ -51,6 +53,6 @@
   padding: 0;
 
   .cc-controls {
-    padding: 12px 15px;
+    padding: $vertical-margin $horizontal-margin;
   }
 }
