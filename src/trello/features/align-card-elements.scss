@@ -1,26 +1,21 @@
 // Sort and align card detail blocks
 
 .list-card-details {
-  -webkit-box-orient: vertical;
-     -moz-box-orient: vertical;
-          box-orient: vertical;
-  display: -webkit-box;
-  display:    -moz-box;
-  display:         box;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
   overflow: visible;
 }
 
 .list-card-title {
-  -webkit-box-ordinal-group: 1;
-     -moz-box-ordinal-group: 1;
-          box-ordinal-group: 1;
   margin: 0;
+  order: 1;
+  width: 100%;
 }
 
 .badges {
-  -webkit-box-ordinal-group: 2;
-     -moz-box-ordinal-group: 2;
-          box-ordinal-group: 2;
+  align-self: center;
+  order: 2;
   padding: 0;
 }
 
@@ -28,51 +23,43 @@
   margin: 3px 4px 0 0;
 }
 
-.list-card-labels {
-  -webkit-box-ordinal-group: 3;
-     -moz-box-ordinal-group: 3;
-          box-ordinal-group: 3;
-  margin: 0;
-}
-
-.list-card-labels .card-label.mod-card-front {
-  margin: 3px 3px 0 0;
-}
-
 .list-card-members {
-  -webkit-box-ordinal-group: 4;
-     -moz-box-ordinal-group: 4;
-          box-ordinal-group: 4;
+  order: 3;
 }
 
 .list-card-members .member {
-  float: left;
-  margin: 3px 4px 0 0;
+  margin: 3px 0 0 4px;
+}
+
+.list-card-labels {
+  margin: 0;
+  order: 4;
+  width: 100%;
+}
+
+.list-card-labels .card-label.mod-card-front {
+  border-radius: 4px;
+  float: right;
+  height: 4px;
+  margin: 3px 0 0 3px;
+  width: 8px;
 }
 
 // Move card cover down, under details
 
 .list-card.is-covered {
-  -webkit-box-orient: vertical;
-     -moz-box-orient: vertical;
-          box-orient: vertical;
-  display: -webkit-box;
-  display:    -moz-box;
-  display:         box;
+  display: flex;
+  flex-flow: column nowrap;
 }
 
 .list-card.is-covered .list-card-details {
-  -webkit-box-ordinal-group: 1;
-     -moz-box-ordinal-group: 1;
-          box-ordinal-group: 1;
+  order: 1;
   padding-bottom: 0;
 }
 
 .list-card.is-covered .list-card-cover {
-  -webkit-box-ordinal-group: 2;
-     -moz-box-ordinal-group: 2;
-          box-ordinal-group: 2;
   margin-top: 3px;
+  order: 2;
 }
 
 // Hide hided card completely

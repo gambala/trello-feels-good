@@ -4,26 +4,33 @@
 }
 
 .list-card-details {
-  -webkit-box-orient: vertical;
-  -moz-box-orient: vertical;
-  box-orient: vertical;
-  display: -webkit-box;
-  display: -moz-box;
-  display: box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   overflow: visible;
 }
 
 .list-card-title {
-  -webkit-box-ordinal-group: 1;
-  -moz-box-ordinal-group: 1;
-  box-ordinal-group: 1;
   margin: 0;
+  -webkit-order: 1;
+      -ms-flex-order: 1;
+          order: 1;
+  width: 100%;
 }
 
 .badges {
-  -webkit-box-ordinal-group: 2;
-  -moz-box-ordinal-group: 2;
-  box-ordinal-group: 2;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  -webkit-order: 2;
+      -ms-flex-order: 2;
+          order: 2;
   padding: 0;
 }
 
@@ -31,49 +38,53 @@
   margin: 3px 4px 0 0;
 }
 
-.list-card-labels {
-  -webkit-box-ordinal-group: 3;
-  -moz-box-ordinal-group: 3;
-  box-ordinal-group: 3;
-  margin: 0;
-}
-
-.list-card-labels .card-label.mod-card-front {
-  margin: 3px 3px 0 0;
-}
-
 .list-card-members {
-  -webkit-box-ordinal-group: 4;
-  -moz-box-ordinal-group: 4;
-  box-ordinal-group: 4;
+  -webkit-order: 3;
+      -ms-flex-order: 3;
+          order: 3;
 }
 
 .list-card-members .member {
-  float: left;
-  margin: 3px 4px 0 0;
+  margin: 3px 0 0 4px;
+}
+
+.list-card-labels {
+  margin: 0;
+  -webkit-order: 4;
+      -ms-flex-order: 4;
+          order: 4;
+  width: 100%;
+}
+
+.list-card-labels .card-label.mod-card-front {
+  border-radius: 4px;
+  float: right;
+  height: 4px;
+  margin: 3px 0 0 3px;
+  width: 8px;
 }
 
 .list-card.is-covered {
-  -webkit-box-orient: vertical;
-  -moz-box-orient: vertical;
-  box-orient: vertical;
-  display: -webkit-box;
-  display: -moz-box;
-  display: box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
 }
 
 .list-card.is-covered .list-card-details {
-  -webkit-box-ordinal-group: 1;
-  -moz-box-ordinal-group: 1;
-  box-ordinal-group: 1;
+  -webkit-order: 1;
+      -ms-flex-order: 1;
+          order: 1;
   padding-bottom: 0;
 }
 
 .list-card.is-covered .list-card-cover {
-  -webkit-box-ordinal-group: 2;
-  -moz-box-ordinal-group: 2;
-  box-ordinal-group: 2;
   margin-top: 3px;
+  -webkit-order: 2;
+      -ms-flex-order: 2;
+          order: 2;
 }
 
 .list-card.hide .list-card-cover,
