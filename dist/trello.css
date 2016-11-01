@@ -101,7 +101,7 @@
 .list-header,
 .list-card-details,
 .open-card-composer {
-  padding: 12px 15px;
+  padding: 10px 12px;
 }
 
 .list-cards {
@@ -555,9 +555,9 @@ input[type=text].header-search-input:hover {
   border-radius: 3px;
   box-sizing: border-box;
   height: 30px !important;
-  margin-bottom: 12px;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-bottom: 10px;
+  margin-left: 12px;
+  margin-right: 12px;
   width: 30px;
 }
 
@@ -614,7 +614,7 @@ input[type=text].header-search-input:hover {
 
 .list-wrapper.mod-add .placeholder {
   color: #222;
-  padding: 12px 15px;
+  padding: 10px 12px;
 }
 
 .list-wrapper.mod-add .list-name-input {
@@ -624,11 +624,11 @@ input[type=text].header-search-input:hover {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   box-shadow: none;
-  padding: 12px 15px;
+  padding: 10px 12px;
 }
 
 .list-wrapper.mod-add .list-add-controls {
-  margin: 12px 15px;
+  margin: 10px 12px;
 }
 
 .list-wrapper.mod-add.is-idle {
@@ -656,7 +656,7 @@ input[type=text].header-search-input:hover {
 }
 
 .card-composer .cc-controls {
-  padding: 12px 15px;
+  padding: 10px 12px;
 }
 
 .window-overlay {
@@ -732,7 +732,7 @@ input[type=text].header-search-input:hover {
   border: none;
   font-weight: 400;
   height: auto;
-  margin-top: 12px;
+  margin-top: 10px;
   padding: 0;
 }
 
