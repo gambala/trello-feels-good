@@ -526,33 +526,40 @@ input[type=text].header-search-input:hover {
   -webkit-box-ordinal-group: 1;
   -moz-box-ordinal-group: 1;
   box-ordinal-group: 1;
-  margin: 0 0 6px;
+  margin: 0;
 }
 
 .badges {
   -webkit-box-ordinal-group: 2;
   -moz-box-ordinal-group: 2;
   box-ordinal-group: 2;
-  margin-bottom: 2px;
   padding: 0;
+}
+
+.badges .badge {
+  margin: 3px 4px 0 0;
 }
 
 .list-card-labels {
   -webkit-box-ordinal-group: 3;
   -moz-box-ordinal-group: 3;
   box-ordinal-group: 3;
+  margin: 0;
+}
+
+.list-card-labels .card-label.mod-card-front {
+  margin: 3px 3px 0 0;
 }
 
 .list-card-members {
   -webkit-box-ordinal-group: 4;
   -moz-box-ordinal-group: 4;
   box-ordinal-group: 4;
-  margin-bottom: -6px;
 }
 
 .list-card-members .member {
   float: left;
-  margin: 0 4px 6px 0;
+  margin: 3px 4px 0 0;
 }
 
 .list-card.is-covered {
@@ -571,14 +578,11 @@ input[type=text].header-search-input:hover {
   padding-bottom: 0;
 }
 
-.list-card.is-covered .list-card-members {
-  padding-bottom: 6px;
-}
-
 .list-card.is-covered .list-card-cover {
   -webkit-box-ordinal-group: 2;
   -moz-box-ordinal-group: 2;
   box-ordinal-group: 2;
+  margin-top: 3px;
 }
 
 .list-card.hide .list-card-cover,
