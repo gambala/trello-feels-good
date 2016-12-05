@@ -4,30 +4,36 @@
   padding: 0;
 }
 
-.badge {
-  &.is-complete,
-  &.is-due-now,
-  &.is-due-past,
-  &.is-due-soon,
-  &.is-unread-notification {
-    background-color: transparent;
-    border-radius: 0;
-  }
+.badge.is-due-soon,
+.badge.is-due-now,
+.badge.is-due-past,
+.badge.is-due-complete,
+.badge.is-unread-notification {
+  background-color: transparent;
+  border-radius: 0;
+}
 
-  &.is-complete,
-  &.is-due-now,
-  &.is-due-past,
-  &.is-due-soon {
-    &,
-    .badge-icon {
-      color: #61BD4F;
-    }
-  }
+.badge.is-due-soon,
+.badge.is-due-soon .badge-icon {
+  color: #E6C60D
+}
 
-  &.is-unread-notification {
-    &,
-    .badge-icon {
-      color: #CF513D;
-    }
-  }
+.badge.is-due-now,
+.badge.is-due-now .badge-icon {
+  color: #CF513D;
+}
+
+.badge.is-due-past,
+.badge.is-due-past .badge-icon {
+  color: #EC9488;
+}
+
+.badge.is-due-complete,
+.badge.is-due-complete .badge-icon {
+  color: #61BD4F;
+}
+
+.badge.is-unread-notification,
+.badge.is-unread-notification .badge-icon {
+  color: #CF513D;
 }
