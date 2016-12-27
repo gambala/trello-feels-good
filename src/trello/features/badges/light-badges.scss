@@ -8,7 +8,8 @@
 .badge.is-due-now,
 .badge.is-due-past,
 .badge.is-due-complete,
-.badge.is-unread-notification {
+.badge.is-unread-notification,
+.badge.is-complete {
   background-color: transparent;
   border-radius: 0;
 }
@@ -36,4 +37,9 @@
 .badge.is-unread-notification,
 .badge.is-unread-notification .badge-icon {
   color: #CF513D;
+}
+
+.badge.is-complete,
+.badge.is-complete .badge-icon {
+  color: #61BD4F;
 }
