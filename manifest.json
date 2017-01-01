@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Trello Light",
+  "version": "0.1.0",
+  "description": "Nice and clean Trello theme",
+  "permissions": ["https://trello.com/*"],
+  "content_scripts": [{
+    "js": ["dist/trello.js"],
+    "matches": ["https://trello.com/*"],
+    "all_frames": true
+  }],
+  "web_accessible_resources": ["dist/trello.css"]
+}
