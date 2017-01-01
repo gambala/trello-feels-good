@@ -1,0 +1,13 @@
+@import "../../../trello/mixins/scrollbar";
+
+.board-menu-content {
+  @include scrollbar(#F1F1F1);
+}
+
+.list-cards {
+  @include scrollbar(#fff);
+}
+
+.window {
+  @include scrollbar(#E9EDF2);
+}

@@ -531,6 +531,147 @@ input[type=text].header-search-input:hover {
   box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.35), 0 3px 10px 1px rgba(0, 0, 0, 0.35);
 }
 
+.board-menu-content::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+
+.board-menu-content::-webkit-scrollbar-button {
+  display: none;
+}
+
+.board-menu-content::-webkit-scrollbar-button:end:increment, .board-menu-content::-webkit-scrollbar-button:start:decrement {
+  background: 0 0;
+  display: none;
+}
+
+.board-menu-content::-webkit-scrollbar-thumb:horizontal, .board-menu-content::-webkit-scrollbar-thumb:vertical {
+  background-clip: padding-box;
+  background-color: rgba(122, 125, 126, 0.25);
+  border-radius: 8px;
+  border: 1px solid transparent;
+  display: block;
+  height: 50px;
+}
+
+.board-menu-content::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(122, 125, 126, 0.35);
+}
+
+.board-menu-content::-webkit-scrollbar-track-piece {
+  background: #F1F1F1;
+}
+
+.board-menu-content::-webkit-scrollbar-track-piece:vertical:start {
+  border-radius: 5px 5px 0 0;
+}
+
+.board-menu-content::-webkit-scrollbar-track-piece:vertical:end {
+  border-radius: 0 0 5px 5px;
+}
+
+.board-menu-content::-webkit-scrollbar-track-piece:horizontal:start {
+  border-radius: 5px 0 0 5px;
+}
+
+.board-menu-content::-webkit-scrollbar-track-piece:horizontal:end {
+  border-radius: 0 5px 5px 0;
+}
+
+.list-cards::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+
+.list-cards::-webkit-scrollbar-button {
+  display: none;
+}
+
+.list-cards::-webkit-scrollbar-button:end:increment, .list-cards::-webkit-scrollbar-button:start:decrement {
+  background: 0 0;
+  display: none;
+}
+
+.list-cards::-webkit-scrollbar-thumb:horizontal, .list-cards::-webkit-scrollbar-thumb:vertical {
+  background-clip: padding-box;
+  background-color: rgba(122, 125, 126, 0.25);
+  border-radius: 8px;
+  border: 1px solid transparent;
+  display: block;
+  height: 50px;
+}
+
+.list-cards::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(122, 125, 126, 0.35);
+}
+
+.list-cards::-webkit-scrollbar-track-piece {
+  background: #fff;
+}
+
+.list-cards::-webkit-scrollbar-track-piece:vertical:start {
+  border-radius: 5px 5px 0 0;
+}
+
+.list-cards::-webkit-scrollbar-track-piece:vertical:end {
+  border-radius: 0 0 5px 5px;
+}
+
+.list-cards::-webkit-scrollbar-track-piece:horizontal:start {
+  border-radius: 5px 0 0 5px;
+}
+
+.list-cards::-webkit-scrollbar-track-piece:horizontal:end {
+  border-radius: 0 5px 5px 0;
+}
+
+.window::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+
+.window::-webkit-scrollbar-button {
+  display: none;
+}
+
+.window::-webkit-scrollbar-button:end:increment, .window::-webkit-scrollbar-button:start:decrement {
+  background: 0 0;
+  display: none;
+}
+
+.window::-webkit-scrollbar-thumb:horizontal, .window::-webkit-scrollbar-thumb:vertical {
+  background-clip: padding-box;
+  background-color: rgba(122, 125, 126, 0.25);
+  border-radius: 8px;
+  border: 1px solid transparent;
+  display: block;
+  height: 50px;
+}
+
+.window::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(122, 125, 126, 0.35);
+}
+
+.window::-webkit-scrollbar-track-piece {
+  background: #E9EDF2;
+}
+
+.window::-webkit-scrollbar-track-piece:vertical:start {
+  border-radius: 5px 5px 0 0;
+}
+
+.window::-webkit-scrollbar-track-piece:vertical:end {
+  border-radius: 0 0 5px 5px;
+}
+
+.window::-webkit-scrollbar-track-piece:horizontal:start {
+  border-radius: 5px 0 0 5px;
+}
+
+.window::-webkit-scrollbar-track-piece:horizontal:end {
+  border-radius: 0 5px 5px 0;
+}
+
 .quiet-button:hover {
   background: none;
 }
@@ -692,49 +833,6 @@ input[type=text].header-search-input:hover {
 .window-up .window-overlay {
   opacity: 1;
   pointer-events: all;
-}
-
-.window::-webkit-scrollbar {
-  height: 9px;
-  width: 9px;
-}
-
-.window::-webkit-scrollbar-button {
-  display: block;
-  height: 6px;
-  width: 6px;
-}
-
-.window::-webkit-scrollbar-button:end:increment, .window::-webkit-scrollbar-button:start:decrement {
-  background: 0 0;
-  display: none;
-}
-
-.window::-webkit-scrollbar-thumb:horizontal, .window::-webkit-scrollbar-thumb:vertical {
-  background: #C4C9CC;
-  border-radius: 5px;
-  display: block;
-  height: 50px;
-}
-
-.window::-webkit-scrollbar-track-piece {
-  background: #D6DADC;
-}
-
-.window::-webkit-scrollbar-track-piece:vertical:start {
-  border-radius: 5px 5px 0 0;
-}
-
-.window::-webkit-scrollbar-track-piece:vertical:end {
-  border-radius: 0 0 5px 5px;
-}
-
-.window::-webkit-scrollbar-track-piece:horizontal:start {
-  border-radius: 5px 0 0 5px;
-}
-
-.window::-webkit-scrollbar-track-piece:horizontal:end {
-  border-radius: 0 5px 5px 0;
 }
 
 .window {

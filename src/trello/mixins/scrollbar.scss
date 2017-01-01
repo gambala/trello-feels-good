@@ -1,13 +1,11 @@
-@mixin scrollbar {
+@mixin scrollbar($track-color: #D6DADC, $thumb-color: #7A7D7E) {
   &::-webkit-scrollbar {
-    height: 9px;
-    width: 9px;
+    height: 8px;
+    width: 8px;
   }
 
   &::-webkit-scrollbar-button {
-    display: block;
-    height: 6px;
-    width: 6px;
+    display: none;
 
     &:end:increment,
     &:start:decrement {
@@ -19,15 +17,21 @@
   &::-webkit-scrollbar-thumb {
     &:horizontal,
     &:vertical {
-      background: #C4C9CC;
-      border-radius: 5px;
+      background-clip: padding-box;
+      background-color: rgba($thumb-color, 0.25);
+      border-radius: 8px;
+      border: 1px solid transparent;
       display: block;
       height: 50px;
+    }
+
+    &:hover {
+      background-color: rgba($thumb-color, 0.35);
     }
   }
 
   &::-webkit-scrollbar-track-piece {
-    background: #D6DADC;
+    background: $track-color;
 
     &:vertical:start   { border-radius: 5px 5px 0 0; }
     &:vertical:end     { border-radius: 0 0 5px 5px; }
