@@ -1,5 +1,1 @@
-var style = document.createElement('link');
-style.rel = 'stylesheet';
-style.type = 'text/css';
-style.href = chrome.extension.getURL('dist/trello.css');
-(document.head||document.documentElement).appendChild(style);
+!function(){var e;return e=document.createElement("link"),e.rel="stylesheet",e.type="text/css",e.href=chrome.extension.getURL("dist/trello.css"),(document.head||document.documentElement).appendChild(e)}();
