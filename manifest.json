@@ -9,5 +9,9 @@
     "matches": ["https://trello.com/*"],
     "all_frames": true
   }],
-  "web_accessible_resources": ["dist/trello.css"]
+  "web_accessible_resources": ["dist/trello.css"],
+  "browser_action": {
+    "default_icon": "dist/icon32.png",
+    "default_title": "Trello theme"
+  }
 }
