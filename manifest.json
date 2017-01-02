@@ -1,17 +1,29 @@
 {
+  // Meta info
   "manifest_version": 2,
   "name": "Trello Light",
   "version": "0.1.0",
+
+  // General info
+  "author": "Vitaliy Emeliyantsev",
   "description": "Nice and clean Trello theme",
-  "permissions": ["https://trello.com/*"],
-  "content_scripts": [{
-    "js": ["dist/trello.js"],
-    "matches": ["https://trello.com/*"],
-    "all_frames": true
-  }],
-  "web_accessible_resources": ["dist/trello.css"],
+  "homepage_url": "https://github.com/gambala/trello",
+  "icons": { "16": "dist/icon16.png",
+             "48": "dist/icon48.png",
+            "128": "dist/icon128.png" },
+
+  // Extension info
   "browser_action": {
-    "default_icon": "dist/icon32.png",
-    "default_title": "Trello theme"
-  }
+    "default_icon": { "16": "dist/icon16.png",
+                      "24": "dist/icon24.png",
+                      "32": "dist/icon32.png" },
+    "default_title": "Trello Light"
+  },
+  "content_scripts": [{
+    "all_frames": true,
+    "js": ["dist/trello.js"],
+    "matches": ["https://trello.com/*"]
+  }],
+  "permissions": ["https://trello.com/*"],
+  "web_accessible_resources": ["dist/trello.css"]
 }
