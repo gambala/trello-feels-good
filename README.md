@@ -4,7 +4,7 @@
 
 ## Installing
 
-## As Chrome Extension
+### As Chrome Extension
 
 1. Turn on developer mode in your chrome.
   1. Go to the chrome://extensions/ page.
