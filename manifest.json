@@ -1,10 +1,8 @@
 {
-  // Meta info
   "manifest_version": 2,
   "name": "Trello Light",
   "version": "0.1.0",
 
-  // General info
   "author": "Vitaliy Emeliyantsev",
   "description": "Nice and clean Trello theme",
   "homepage_url": "https://github.com/gambala/trello",
@@ -12,7 +10,6 @@
              "48": "dist/icon48.png",
             "128": "dist/icon128.png" },
 
-  // Extension info
   "browser_action": {
     "default_icon": { "16": "dist/icon16.png",
                       "24": "dist/icon24.png",
