@@ -18,7 +18,7 @@
   },
   "content_scripts": [{
     "all_frames": true,
-    "js": ["dist/trello.js"],
+    "js": ["dist/jquery-3.1.1.slim.min.js", "dist/trello.js"],
     "matches": ["https://trello.com/*"]
   }],
   "permissions": ["https://trello.com/*"],
