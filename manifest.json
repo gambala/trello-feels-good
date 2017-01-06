@@ -9,6 +9,7 @@
   "icons": { "16": "dist/icon16.png",
              "48": "dist/icon48.png",
             "128": "dist/icon128.png" },
+  "minimum_chrome_version": "21",
   "short_name": "Trello Light",
 
   "browser_action": {
