@@ -6,23 +6,23 @@
   "author": "Vitaliy Emeliyantsev",
   "description": "Nice and clean Trello theme",
   "homepage_url": "https://github.com/gambala/trello",
-  "icons": { "16": "dist/icon16.png",
-             "48": "dist/icon48.png",
-            "128": "dist/icon128.png" },
+  "icons": { "16": "icon16.png",
+             "48": "icon48.png",
+            "128": "icon128.png" },
   "minimum_chrome_version": "21",
   "short_name": "Trello Light",
 
   "browser_action": {
-    "default_icon": { "16": "dist/icon16.png",
-                      "24": "dist/icon24.png",
-                      "32": "dist/icon32.png" },
+    "default_icon": { "16": "icon16.png",
+                      "24": "icon24.png",
+                      "32": "icon32.png" },
     "default_title": "Trello Light"
   },
   "content_scripts": [{
     "all_frames": true,
-    "js": ["dist/jquery-3.1.1.slim.min.js", "dist/trello.js"],
+    "js": ["vendor/jquery-3.1.1.slim.min.js", "trello.js"],
     "matches": ["https://trello.com/*"]
   }],
   "permissions": ["https://trello.com/*"],
-  "web_accessible_resources": ["dist/trello.css"]
+  "web_accessible_resources": ["trello.css"]
 }
