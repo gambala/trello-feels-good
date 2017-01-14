@@ -857,6 +857,17 @@ input[type=text].header-search-input:hover {
   padding: 0;
 }
 
+.button-link .on {
+  background-color: transparent;
+  color: #61bd4f;
+  padding: 0;
+  top: 0;
+}
+
+.button-link:hover .on {
+  background-color: transparent;
+}
+
 .window-sidebar .button-link:hover,
 .window-sidebar .button-link:hover .icon-sm {
   color: #222;
