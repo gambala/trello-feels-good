@@ -7,11 +7,11 @@
 ### As Chrome Extension
 
 1. Turn on developer mode in your chrome.
-  1. Go to the chrome://extensions/ page.
+  1. Go to the [chrome://extensions](chrome://extensions) page.
   2. Check "Developer mode" at the top-right of the page.
-2. Download this repository: https://github.com/gambala/trello/archive/master.zip.
-3. Unpack repository into any folder.
-4. Drag'n'drop entire folder into chrome://extensions/ page.
+2. Download this archive: [master.zip](https://github.com/gambala/trello/archive/master.zip).
+3. Unpack archive into any folder.
+4. Drag'n'drop entire `dist/` folder into [chrome://extensions](chrome://extensions) page.
 
 ### As userstyle
 
