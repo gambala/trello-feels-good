@@ -309,6 +309,7 @@ input[type=submit].primary:active {
 }
 
 .board-wrapper {
+  overflow: hidden;
   z-index: 2;
 }
 

@@ -44,6 +44,7 @@ $transparent-width: 30%;
 }
 
 .board-wrapper {
+  overflow: hidden;
   z-index: 2;
 }
 
