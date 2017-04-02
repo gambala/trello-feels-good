@@ -823,6 +823,22 @@ input[type=text].header-search-input:hover {
   padding: 10px 12px;
 }
 
+.card-short-id.trello-card-numbers-inline {
+  color: #d5d5d5;
+  font-size: 11px;
+  left: -6px;
+  line-height: 100%;
+  position: absolute;
+  top: 1px;
+}
+
+.trello-card-numbers-detail-header {
+  font-weight: 400;
+  left: -30px;
+  position: absolute;
+  top: 45px;
+}
+
 .window-overlay {
   display: block;
   opacity: 0;
