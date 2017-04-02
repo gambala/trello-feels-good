@@ -1,4 +1,15 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto';
+.board-header-btn.mod-show-menu {
+  opacity: 1;
+  transition: all 0.1s;
+  visibility: visible;
+}
+
+.board-wrapper.is-show-menu .board-header-btn.mod-show-menu {
+  opacity: 0;
+  visibility: hidden;
+}
+
 .board-header {
   padding-left: 10px;
 }
