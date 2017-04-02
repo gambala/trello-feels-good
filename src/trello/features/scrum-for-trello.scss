@@ -12,6 +12,13 @@
   line-height: 18px;
   margin: 0;
   pointer-events: none;
+
+  .cpoints,
+  .points {
+    &:empty {
+      display: none !important;
+    }
+  }
 }
 
 .board-header-btns .list-total {
@@ -22,4 +29,9 @@
   .cpoints {
     margin-right: 5px;
   }
+}
+
+.picker,
+.picker-consumed {
+  text-align: right;
 }

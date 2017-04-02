@@ -795,6 +795,11 @@ input[type=text].header-search-input:hover {
   pointer-events: none;
 }
 
+.list-total .cpoints:empty,
+.list-total .points:empty {
+  display: none !important;
+}
+
 .board-header-btns .list-total {
   font-size: 18px;
   font-weight: bold;
@@ -803,6 +808,11 @@ input[type=text].header-search-input:hover {
 
 .board-header-btns .list-total .cpoints {
   margin-right: 5px;
+}
+
+.picker,
+.picker-consumed {
+  text-align: right;
 }
 
 .list-wrapper.mod-add {
@@ -860,24 +870,20 @@ input[type=text].header-search-input:hover {
   padding: 10px 12px;
 }
 
-.list-card-title {
-  padding-right: 5px;
-}
-
 .card-short-id.trello-card-numbers-inline {
-  color: #e3e3e3;
+  color: #d5d5d5;
+  float: right;
   font-size: 11px;
-  line-height: 100%;
-  position: absolute;
-  right: 4px;
-  top: 5px;
+  margin-left: 4px;
 }
 
 .trello-card-numbers-detail-header {
   font-weight: 400;
-  left: -30px;
+  left: -38px;
   position: absolute;
+  text-align: center;
   top: 45px;
+  width: 50px;
 }
 
 .window-overlay {
