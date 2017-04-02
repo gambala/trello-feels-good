@@ -1,10 +1,14 @@
+.list-card-title {
+  padding-right: 5px;
+}
+
 .card-short-id.trello-card-numbers-inline {
-  color: #d5d5d5;
+  color: #e3e3e3;
   font-size: 11px;
-  left: -6px;
   line-height: 100%;
   position: absolute;
-  top: 1px;
+  right: 4px;
+  top: 5px;
 }
 
 .trello-card-numbers-detail-header {
