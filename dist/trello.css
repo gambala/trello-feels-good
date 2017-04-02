@@ -779,6 +779,32 @@ input[type=text].header-search-input:hover {
   display: none;
 }
 
+.badge-points {
+  background: transparent !important;
+  border: none !important;
+  color: #006580 !important;
+  padding: 0 !important;
+}
+
+.list-total {
+  float: right;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
+  margin: 0;
+  pointer-events: none;
+}
+
+.board-header-btns .list-total {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 4px;
+}
+
+.board-header-btns .list-total .cpoints {
+  margin-right: 5px;
+}
+
 .list-wrapper.mod-add {
   background: #F1F1F1;
   border-radius: 3px;

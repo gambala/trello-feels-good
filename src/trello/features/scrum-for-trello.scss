@@ -1,0 +1,25 @@
+.badge-points {
+  background: transparent !important;
+  border: none !important;
+  color: #006580 !important;
+  padding: 0 !important;
+}
+
+.list-total {
+  float: right;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
+  margin: 0;
+  pointer-events: none;
+}
+
+.board-header-btns .list-total {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 0 4px;
+
+  .cpoints {
+    margin-right: 5px;
+  }
+}
