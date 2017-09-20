@@ -73,7 +73,8 @@
   float: right;
   height: 4px;
   margin: 3px 0 0 3px;
-  width: 8px;
+  max-width: 16px;
+  min-width: 16px;
 }
 
 .list-card.is-covered {
