@@ -952,7 +952,7 @@ input[type=text].header-search-input:hover {
   }
   .window-up .board-wrapper {
     transition-duration: 0s;
-    margin-right: 750px;
+    margin-right: 764px;
   }
   .window-overlay {
     -webkit-justify-content: flex-end;
