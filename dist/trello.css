@@ -257,6 +257,13 @@ input[type=submit].primary:active {
   background: #4181F2;
 }
 
+.member-cards-board.body-dark-board-background .board-header-btn,
+.member-cards-board.body-dark-board-background .board-header-btn:hover,
+.member-cards-board.body-dark-board-background .board-header-btn-icon,
+.member-cards-board.body-dark-board-background .board-header-btn.board-header-btn-enabled .board-header-btn-icon.icon-star {
+  color: #f6f6f6;
+}
+
 .board-menu {
   background-color: #F1F1F1;
 }
