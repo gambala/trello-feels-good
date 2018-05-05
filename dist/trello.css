@@ -10,8 +10,9 @@
   opacity: 0;
   visibility: hidden; }
 
-#classic, #classic-body {
-  z-index: 2; }
+#classic,
+#classic-body {
+  position: static; }
 
 .distinct-list .list-card {
   margin-top: 0; }
