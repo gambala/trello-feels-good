@@ -1,11 +1,9 @@
-@import "trello/variables";
-
 // Calibrate paddings in cards and card list blocks
 
 .list-header,
 .list-card-details,
 .open-card-composer {
-  padding: $vertical-margin $horizontal-margin;
+  padding: 10px 12px;
 }
 
 .list-cards {
