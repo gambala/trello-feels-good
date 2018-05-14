@@ -1,4 +1,4 @@
-@import "../../../trello/mixins/scrollbar";
+@import "trello/mixins/scrollbar";
 
 .board-menu-content {
   @include scrollbar(#F1F1F1);
