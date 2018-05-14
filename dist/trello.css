@@ -647,6 +647,21 @@ input[type=text].header-search-input:hover {
 .quick-card-editor .list-card-cover {
   display: none; }
 
+.card-short-id.trello-card-numbers-inline {
+  color: #d5d5d5;
+  float: right;
+  font-size: 11px;
+  margin-left: 4px; }
+
+.trello-card-numbers-detail-header {
+  font-size: 14px;
+  font-weight: 400;
+  left: -38px;
+  position: absolute;
+  text-align: center;
+  top: 40px;
+  width: 50px; }
+
 .badge-points {
   background: transparent !important;
   border: none !important;
@@ -720,21 +735,6 @@ input[type=text].header-search-input:hover {
   padding: 0; }
   .card-composer .cc-controls {
     padding: 10px 12px; }
-
-.card-short-id.trello-card-numbers-inline {
-  color: #d5d5d5;
-  float: right;
-  font-size: 11px;
-  margin-left: 4px; }
-
-.trello-card-numbers-detail-header {
-  font-size: 14px;
-  font-weight: 400;
-  left: -38px;
-  position: absolute;
-  text-align: center;
-  top: 40px;
-  width: 50px; }
 
 .window-overlay {
   display: block;
