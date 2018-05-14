@@ -1,5 +1,3 @@
-*.sublime-project
-*.sublime-workspace
 /.sass-cache
 /dist/trello/*
 /dist.zip
