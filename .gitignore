@@ -2,4 +2,5 @@
 *.sublime-workspace
 /.sass-cache
 /dist/trello/*
+/dist.zip
 README.html
