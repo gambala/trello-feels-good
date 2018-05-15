@@ -171,14 +171,6 @@
 .badge.is-complete .badge-icon {
   color: #61BD4F; }
 
-body,
-button,
-html,
-input,
-select,
-textarea {
-  font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
-
 .button,
 button,
 input[type=button],
@@ -374,7 +366,7 @@ input[type=text].header-search-input:hover {
 .header-logo {
   background-color: #3F9BF8;
   border-radius: 5px;
-  border: 1px solid #888;
+  border: 1px solid #6491bf;
   margin: -1px -5px -1px -45px;
   opacity: 1;
   padding: 0 4px; }
@@ -689,6 +681,14 @@ input[type=text].header-search-input:hover {
   text-align: center;
   top: 40px;
   width: 50px; }
+
+body,
+button,
+html,
+input,
+select,
+textarea {
+  font-family: "Roboto", "Helvetica Neue", "Arial", "Helvetica", sans-serif; }
 
 .list-wrapper.mod-add {
   background: #F1F1F1;
