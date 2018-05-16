@@ -1,32 +1,63 @@
 // Make sidebar buttons looks like links
+// Review date: 2018-05-16
 
-.window-sidebar h3 {
-  font-weight: 500;
-}
+.window-sidebar {
+  padding: 0 8px;
 
-.window-sidebar .button-link {
-  background: none;
-  border-radius: 0;
-  border: none;
-  box-shadow: none;
-  font-weight: 400;
-  height: auto;
-  margin-top: 10px;
-  padding: 0;
-}
+  hr {
+    display: none;
+  }
 
-.button-link .on {
-  background-color: transparent;
-  color: #61bd4f;
-  padding: 0;
-  top: 0;
-}
+  h3 {
+    font-weight: 500;
+  }
 
-.button-link:hover .on {
-  background-color: transparent;
-}
+  .quiet-button {
+    padding: 0;
+  }
 
-.window-sidebar .button-link:hover,
-.window-sidebar .button-link:hover .icon-sm {
-  color: #222;
+  .button-link {
+    background: none;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    font-weight: 400;
+    height: auto;
+    margin-top: 10px;
+    padding: 0;
+
+    .on {
+      background-color: transparent;
+      color: #61bd4f;
+      padding: 0;
+      top: 0;
+    }
+
+    &:hover {
+      &,
+      & .icon-sm {
+        color: #222;
+      }
+
+      .on {
+        background-color: transparent;
+      }
+    }
+  }
+
+  .button-link.negate {
+    &,
+    & .icon-sm {
+      color: #eb5a46;
+    }
+
+    &:hover {
+      background: none;
+
+      &,
+      & .icon-sm {
+        color: #cf513d;
+      }
+    }
+  }
 }
