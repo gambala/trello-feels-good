@@ -1,0 +1,16 @@
+// Make full card description looks like comments
+// Review date: 2018-05-16
+
+.editing .edit .field, .editing .edit .field:active,
+.card-detail-fake-text-area {
+	background: #fff;
+  border-radius: 3px;
+  box-shadow: none;
+}
+
+.js-card-desc {
+	background: #fff;
+  border-radius: 3px;
+  border: 1px solid #cdd2d4;
+  padding: 7px;
+}

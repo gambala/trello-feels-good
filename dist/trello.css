@@ -76,6 +76,19 @@
 .window-sidebar .button-link:hover .icon-sm {
   color: #222; }
 
+.editing .edit .field, .editing .edit .field:active,
+.card-detail-fake-text-area {
+  background: #fff;
+  border-radius: 3px;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+.js-card-desc {
+  background: #fff;
+  border-radius: 3px;
+  border: 1px solid #cdd2d4;
+  padding: 7px; }
+
 .board-header {
   padding-left: 10px; }
 
@@ -613,44 +626,6 @@ input[type=text].header-search-input:hover {
   padding: 0; }
   .card-composer .cc-controls {
     padding: 10px 12px; }
-
-.card-detail-item .description-content {
-  background: #fff;
-  border-radius: 3px;
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.23);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.23);
-  padding: 9px 11px; }
-
-.card-detail-item .description-content > .current > *:last-child {
-  margin-bottom: 0; }
-
-.card-detail-item.editing .description-content {
-  background: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  padding: 0; }
-
-.card-detail-item.editing .field {
-  background-color: #fff;
-  border: none;
-  border-radius: 3px;
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.23);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.23);
-  padding: 9px 11px; }
-
-.description-content-fade-button {
-  height: 452px;
-  padding-top: 419px; }
-
-.description-content-fade-button {
-  background: -webkit-linear-gradient(top, rgba(237, 239, 240, 0), rgba(237, 239, 240, 0) 385px, #EDEFF0 415px);
-  background: -o-linear-gradient(top, rgba(237, 239, 240, 0), rgba(237, 239, 240, 0) 385px, #EDEFF0 415px);
-  background: linear-gradient(to bottom, rgba(237, 239, 240, 0), rgba(237, 239, 240, 0) 385px, #EDEFF0 415px); }
-
-.description-content-fade-button:hover {
-  background: -webkit-linear-gradient(top, rgba(237, 239, 240, 0), rgba(237, 239, 240, 0) 385px, #EDEFF0 430px);
-  background: -o-linear-gradient(top, rgba(237, 239, 240, 0), rgba(237, 239, 240, 0) 385px, #EDEFF0 430px);
-  background: linear-gradient(to bottom, rgba(237, 239, 240, 0), rgba(237, 239, 240, 0) 385px, #EDEFF0 430px); }
 
 .window-overlay {
   display: block;
