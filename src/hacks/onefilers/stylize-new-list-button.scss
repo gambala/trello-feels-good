@@ -1,0 +1,27 @@
+// Stylize adding list button and form
+
+.distinct-add-list.list-wrapper .placeholder {
+  color: #222;
+
+  .icon-sm {
+    display: none;
+  }
+}
+
+.distinct-add-list .mod-list-add-button {
+  overflow: hidden;
+  padding: 0 4px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.list-wrapper.mod-add.is-idle {
+  background: none;
+  border-color: transparent;
+  box-shadow: none;
+  color: #222;
+
+  &:hover {
+    background: none;
+  }
+}

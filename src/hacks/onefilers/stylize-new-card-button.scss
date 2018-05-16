@@ -1,0 +1,42 @@
+// Stylize new card button, icons and shadows
+// Review date: 2018-05-16
+
+.distinct-list {
+  padding-bottom: 0;
+}
+
+.distinct-list .open-card-composer {
+  color: #ccc;
+  font-weight: 400;
+  margin: 0;
+
+  .icon-sm {
+    display: none;
+  }
+
+  &:hover {
+    background: none;
+    text-decoration: none;
+  }
+}
+
+// Stylize submit group for new card button
+
+.card-composer {
+  background-color: #F1F1F1;
+  padding: 0;
+}
+
+.distinct-list .cc-controls {
+  margin-top: 0;
+  padding: 10px 12px;
+}
+
+.list-shadow .cc-controls-section .icon-lg {
+  color: #999;
+}
+
+.list-shadow,
+.list-shadow.distinct-add-list.mod-add {
+  background: none;
+}
