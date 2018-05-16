@@ -19,6 +19,10 @@
   background: lighten(#E9EDF2, 2%);
 }
 
+#classic, #classic-body, #root {
+  position: static;
+}
+
 .body-board-view::after,
 .body-board-view::before {
   background: inherit;
