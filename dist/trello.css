@@ -63,7 +63,8 @@
   padding: 7px; }
 
 .window-sidebar {
-  padding: 0 8px; }
+  padding: 0 8px;
+  width: 164px; }
   .window-sidebar hr {
     display: none; }
   .window-sidebar h3 {
@@ -398,8 +399,11 @@ input[type=text].header-search-input:hover {
   border: none; }
 
 .list-card {
-  border-color: #E7E7E7;
-  border-radius: 0; }
+  border-bottom: 1px solid #e7e7e7;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  margin-bottom: 0; }
 
 .list-card:last-child {
   border-bottom: none; }
