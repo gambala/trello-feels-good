@@ -414,6 +414,10 @@ input[type=text].header-search-input:hover {
 .list-card.hide {
   border: none; }
 
+textarea.mod-list-name {
+  padding-left: 0;
+  padding-right: 0; }
+
 .list-card.is-covered .list-card-cover,
 .list-card.is-covered .list-card-cover::after {
   border-radius: 3px;
