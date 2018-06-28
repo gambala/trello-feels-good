@@ -1,4 +1,4 @@
-# Nice and clean Trello theme
+# Aesthetic Trello theme
 
 ![Trello theme](https://github.com/gambala/trello/raw/master/cover.png)
 
