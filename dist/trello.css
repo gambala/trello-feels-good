@@ -674,6 +674,12 @@ textarea.mod-list-name {
   opacity: 0;
   visibility: hidden; }
 
+.list-wrapper {
+  width: 350px; }
+
+.list-card {
+  max-width: none; }
+
 .header-logo {
   background-color: #3F9BF8;
   border-radius: 5px;
