@@ -4,7 +4,7 @@
 .tabbed-pane-main-col,
 .tabbed-pane-nav-item-button.active,
 .tabbed-pane-nav-item-button.active:hover {
-  background: #E1E1E1;
+  background: linear-gradient(0, rgba(225,225,225, 0.95) 70%, rgba(225,225,225, 0));
 }
 
 .tabbed-pane-nav-item-button {
@@ -17,39 +17,6 @@
 
 .board-tile.mod-add:hover {
   background: lighten(#E9EDF2, 2%);
-}
-
-#classic, #classic-body, #root {
-  position: static;
-}
-
-.body-board-view::after,
-.body-board-view::before {
-  background: inherit;
-  background-position: 50% 50%;
-  bottom: 0;
-  content: '';
-  height: 50vh;
-  left: 0;
-  position: fixed;
-  width: 80vw;
-  z-index: 1;
-}
-
-$transparent-width: 30%;
-
-.body-board-view::before {
-  clip-path: polygon(0 0, 0 100%, 100% 100%);
-  opacity: 0.5;
-}
-
-.body-board-view::after {
-  clip-path: polygon(0 $transparent-width, 0 100%, (100% - $transparent-width) 100%);
-}
-
-.board-wrapper {
-  overflow: hidden;
-  z-index: 2;
 }
 
 .icon-lg.light,

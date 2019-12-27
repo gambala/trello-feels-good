@@ -1,7 +1,11 @@
 #header,
 .body-board-view #header {
-  background: #E9EDF2;
-  border-bottom: 1px solid #C6CACE;
+  background: none;
+  border-bottom: none;
+}
+
+.body-custom-board-background #header {
+  background: rgba(0,0,0,.24);
 }
 
 .header-btn {
