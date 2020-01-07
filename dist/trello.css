@@ -616,12 +616,6 @@ textarea.mod-list-name {
     margin: 41px 0 0; }
   .window {
     overflow-y: scroll; }
-  .window-overlay {
-    background: none; }
-  .window-up .window-overlay {
-    pointer-events: none; }
-  .window-up .window {
-    pointer-events: all; }
   input[type=text].header-search-input:disabled {
     display: none; }
     input[type=text].header-search-input:disabled + .header-search-icon {

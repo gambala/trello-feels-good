@@ -38,18 +38,19 @@
   }
 
   // Make window-overlay transparent by both visual and behavior
+  // ISSUE: Modal window breaks when open second window while first is open already
 
-  .window-overlay {
-    background: none;
-  }
+  // .window-overlay {
+  //   background: none;
+  // }
 
-  .window-up .window-overlay {
-    pointer-events: none;
-  }
+  // .window-up .window-overlay {
+  //   pointer-events: none;
+  // }
 
-  .window-up .window {
-    pointer-events: all;
-  }
+  // .window-up .window {
+  //   pointer-events: all;
+  // }
 
   // Hide header search input because of disabled state on opened window
 
