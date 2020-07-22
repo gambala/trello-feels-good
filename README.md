@@ -1,6 +1,6 @@
 # Aesthetic Trello theme
 
-![Trello theme](https://github.com/gambala/trello/raw/master/cover.png)
+![Trello theme](https://github.com/gambala/trello-feels-good/raw/master/cover.png)
 
 ## Installing
 
