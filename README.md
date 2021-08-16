@@ -23,5 +23,5 @@
 2. Go to [trello.com](https://trello.com).
 3. Click Stylish extension icon.
 4. Click "Create style for trello.com/" link.
-5. Copy and paste code from [dist/trello.css](https://raw.githubusercontent.com/gambala/trello/master/dist/trello.css) to Stylish textarea.
+5. Copy and paste code from [dist/trello.css](/dist/trello.css) to Stylish textarea.
 6. Save your theme.
